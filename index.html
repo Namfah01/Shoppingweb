@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omakase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">🏮</div>
+        <div class="logo-text">Omakase</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#menu-burgers">Menu</a>
+          </li>
+          <li>
+            <a href="#menu-burgers" class="button">Order Now</a>
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+          <img src="./images/mobileToggle.svg" alt="Mobile Toggle" />
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-first">
+          <h1>What does Omakase mean?</h1>
+          <p>
+            Omakase is a Japanese dining experience that involves placing one's trust in the chef's culinary skills to create a personalized meal.
+            The term omakase translates to “I leave it up to you,” 
+            which reflects the diner's willingness to relinquish control over their meal to the chef.
+          </p>
+          <div class="call-to-action">
+            <a href="./menu.jpeg" target="”_blank”" class="button">
+              Full Menu
+            </a>
+          </div>
+        </div>
+        <div class="hero-second">
+          <img
+            src="./omakase.webp"
+            alt="Burger Truck"
+            width="100%"
+          />
+        </div>
+      </section>
+      <section id="menu-burgers" class="featured">
+        <h2>Best Omakase Restaurants in Thailand</h2>
+        <div class="burgers">
+          <article>
+            <figure>
+              <img
+                src="./menu1.webp"
+                alt="The All-American"
+                width="150%"
+              />
+            </figure>
+            <h3>Sakizuke</h3>
+            <p>
+              Appetizer-3 Kind of Seasonal Appetizers
+            </p>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="./menu2.jpeg"
+                alt="Bacon Cheeseburger"
+                width="117%"
+              />
+            </figure>
+            <h3>Otsukuri</h3>
+            <p>
+              Sashimi-4 Kind of Seasonal Fish
+            </p>
+          </article>
+          <article>
+            <figure>
+              <img
+                src="./menu3.jpeg"
+                alt="The Aloha Burger"
+                width="114%"
+              />
+            </figure>
+            <h3>Hokkaido Uni</h3>
+            <p>
+              Sashimi-4 Kind of beauty sushi
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
